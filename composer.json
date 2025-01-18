@@ -1,0 +1,21 @@
+{
+  "name": "strekoza/module-redirect-for-404-pages",
+  "version": "1.0.0",
+  "description": "Magento module. Redirect for 404 pages.",
+  "minimum-stability": "dev",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "magefast",
+      "email": "magefast@gmail.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "files": [ "registration.php" ],
+    "psr-4": {
+      "Strekoza\\RedirectFor404pages\\": ""
+    }
+  }
+}
